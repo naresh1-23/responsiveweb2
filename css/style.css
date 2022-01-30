@@ -1,0 +1,102 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+.row{
+    display: block;
+    margin-top: 5%;
+    text-align: center;
+}
+.first_topic{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    font-weight: 100;
+}
+.second_topic{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.para{
+    position: relative;
+    margin-left: 34%;
+    margin-right: 34%;
+}
+.card_box{
+    padding: 5%;
+    
+}
+.card_Karma, .card_Team, .card_Super, .card_cal{
+    position: relative;
+    border: #BFBFBF 1px solid;
+    border-radius: 15px;
+    height: 200px;
+    width: 25%;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 5px 5px #aaaaaa;
+    padding: 30px;
+    border-top-width: 7px;
+    margin-bottom: 25px;
+    float: left;
+    margin-left: 3%;
+    top: 150px;
+}
+.card_Super{
+    border-top-color: rgb(40, 178, 228);
+}
+.card_Team{
+    border-top-color: rgb(230, 23, 0);
+    top: -25px;
+}
+.card_cal{
+    border-top-color: rgb(0, 17, 255);
+}
+.card_Karma{
+    border-top-color: rgb(253, 152, 0);
+    margin-left: 36%;
+    top: 25px;
+}
+.card_topic{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.detail{
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+.icon{
+    position: relative;
+    float: right;
+}
+.search{
+    font-size: 90px;
+}
+@media only screen and (max-width:1300px){
+    .card_Karma, .card_Team, .card_Super, .card_cal{
+        position: relative;
+        border: #BFBFBF 1px solid;
+        border-radius: 15px;
+        height: 200px;
+        background-color: whitesmoke;
+        box-shadow: 5px 5px 5px 5px #aaaaaa;
+        padding: 30px;
+        border-top-width: 7px;
+        margin-bottom: 25px;
+        float: left;
+        width: 50%;
+        top: 25px;
+        margin-left: 20%;
+    }
+    .card_Super{
+        border-top-color: rgb(40, 178, 228);
+    }
+    .card_Team{
+        border-top-color: rgb(230, 23, 0);
+    }
+    .card_cal{
+        border-top-color: rgb(0, 17, 255);
+    }
+    .card_Karma{
+        border-top-color: rgb(253, 152, 0);  
+        
+    }
+}
